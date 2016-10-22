@@ -14,7 +14,7 @@ repositories {
     }
 }
 dependencies {
-  compile 'com.mesa247.reserva:reserva:1.0.0@aar'
+    compile 'com.mesa247.reserva:reserva:1.0.0@aar'
     compile 'com.pnikosis:materialish-progress:1.7'
     compile 'com.jpardogo.materialtabstrip:library:1.1.0'
 }
@@ -48,7 +48,6 @@ Para poder utilizar la ventana de mis reservas utilizar de la siguiente manera:
         startActivity(intent);
 
 ```
-Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
 
 Reserva requires at minimum Java 8 or Android 4.1.
 
